@@ -20,6 +20,7 @@ class DeleteByCategoryService {
             }
 
 
+
             ProductTable.deleteWhere { category eq query }
         }
         return count
