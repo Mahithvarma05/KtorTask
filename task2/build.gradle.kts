@@ -66,13 +66,6 @@ dependencies {
     implementation("redis.clients:jedis:2.8.0")
     runtimeOnly("io.ktor:ktor-client-json:1.3.2-1.4-M2")
 
-
-
-
-
-
-
-
     implementation("ch.qos.logback:logback-classic:$logback_version")
     testImplementation("io.ktor:ktor-server-tests-jvm")
     testImplementation("org.jetbrains.kotlin:kotlin-test-junit:$kotlin_version")

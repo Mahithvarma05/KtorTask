@@ -10,7 +10,7 @@ import org.jetbrains.exposed.sql.transactions.transaction
 
 class SearchByTorDService {
 
-     fun searchProduct(query:String):List<ProductResponce>{
+         fun searchProduct(query:String):List<ProductResponce>{
 
         val result = transaction {
             (ProductTable innerJoin ImagesTable)
