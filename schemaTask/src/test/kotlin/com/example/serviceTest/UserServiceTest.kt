@@ -41,7 +41,6 @@ class UserServiceTest {
 
         runBlocking {
 
-
             val request = Request("107", "1M")
             val fRequest = FilterRequest(request)
             val result = FilterSchemeId().filter(fRequest)
